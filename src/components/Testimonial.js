@@ -39,7 +39,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className='max-w-[896px] h-[396px] w-full mt-[100px] m-auto md:mt-[315px] px-4 relative group' data-aos="zoom-in" data-aos-duration="1200">
+    <div className='max-w-[896px] h-[396px] w-full mt-[100px] mr-[20px] md:m-auto md:mt-[315px] px-4 relative group' data-aos="zoom-in" data-aos-duration="1200">
       <div className='w-full h-full bg-[#F1F1F1] mt-[100px] '>
         {slides.map((slide, index) => (
           <div
