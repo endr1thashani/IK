@@ -7,7 +7,7 @@ const Experience = () => {
         AOS.refresh();
     }, []);
   return (
-    <div className='w-full h-screen mt-[80px] max-h-[500px] mx-auto flex flex-col items-center justify-center max-w-[1000px] md:flex-row md:justify-between' id='services'>
+    <div className='w-full h-screen mt-[120px] max-h-[500px] mx-auto flex flex-col items-center justify-center max-w-[1000px] md:flex-row md:justify-between' id='services'>
         <div className='w-full flex items-center justify-evenly' data-aos="fade-up" data-aos-duration="1200">
             <div className='flex flex-col'>
                 <h1 className='text-[50px] font-bold text-[#40394A]'>3+</h1>

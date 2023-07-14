@@ -19,7 +19,7 @@ const Contact = () => {
   }
   return (
     <div className='flex flex-col w-full h-screen items-center mt-[100px] justify-evenly bg-[#DEDEDE] opacity-90 md:flex-row md:mt-[293px] ' id='contact'>
-      <div className='flex flex-col max-w-[390px] mb-[50px]' data-aos="fade-up" data-aos-duration="1200">
+      <div className='flex flex-col max-w-[390px] ml-[10px] mb-[50px]' data-aos="fade-up" data-aos-duration="1200">
         <h1 className=" text-[#40394A] font-bold leading-[81px] text-4xl  md:text-[60px] lg:text-[90px]">Let’s Connect</h1>
         <p className='text-[#B2AEAE] font-normal mt-[39px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare facilisis ut felis vel. Netus mollis tellus vitae sed mauris, pharetra.</p>
         <div className='flex items-center mt-[39px]'>

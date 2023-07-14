@@ -48,22 +48,22 @@ const Items = () => {
         className="mySwiper w-full h-screen max-h-[80px]" data-aos="zoom-in" data-aos-duration="1200"
       >
         <SwiperSlide>
-          <img className='h-[30px] mt-[25px] ml-[210px] md:ml-[30px] ' src={As} alt='as' />
+          <img className='h-[30px] mt-[25px] ml-[170px] sm:ml-[210px] md:ml-[30px] ' src={As} alt='as' />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='h-[30px] mt-[25px] ml-[170px] md:ml-[-10px] ' src={Doodle} alt='Doodle' />
+          <img className='h-[30px] mt-[25px]  ml-[145px] sm:ml-[170px] md:ml-[-10px] ' src={Doodle} alt='Doodle' />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='h-[30px] mt-[25px] ml-[190px] md:ml-0'src={Ucx} alt='Ucx' />
+          <img className='h-[30px] mt-[25px] ml-[165px] sm:ml-[190px] md:ml-0'src={Ucx} alt='Ucx' />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='h-[30px] mt-[25px] ml-[160px] md:ml-0' src={Bon} alt='Bon' />
+          <img className='h-[30px] mt-[25px] ml-[120px] sm:ml-[160px] md:ml-0' src={Bon} alt='Bon' />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='h-[60px] mt-[10px] ml-[215px] md:ml-[15px]'  src={T} alt='T' />
+          <img className='h-[60px] mt-[10px] ml-[170px] sm:ml-[215px] md:ml-[15px]'  src={T} alt='T' />
         </SwiperSlide>
         <SwiperSlide>
-          <img className='h-[30px] mt-[25px] ml-[150px] md:ml-[-50px]' src={Frak} alt='Frak' />
+          <img className='h-[30px] mt-[25px] ml-[110px] sm:ml-[150px] md:ml-[-50px]' src={Frak} alt='Frak' />
         </SwiperSlide>
       </Swiper>
     </div>
