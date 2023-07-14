@@ -1,0 +1,25 @@
+.mySwiper .swiper-pagination-bullet{
+    width: 2px;
+    height: 40px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF9A00;
+}
+.mySwiper .swiper-pagination-bullets{
+    width: initial;
+    left: 10%;
+    top: 30%;
+}
+
+@media (max-width:550px){
+    .mySwiper .swiper-pagination-bullets{
+        left: 10%;
+        top: 14%;
+    }
+    .mySwiper .swiper-pagination-bullet{
+        width: 1px;
+        height: 30px;
+        color: #FFFFFF;
+        background-color: #FF9A00;
+    }
+}

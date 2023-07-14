@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    @apply scroll-smooth;
+}
+
+
+.animation-pulse {
+   animation: pulse 3s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(0.5);
+        box-shadow:0 0 0 0 rgb(29, 187, 84);
+        opacity: 0;
+    }
+    70%{
+        transform: scale(0.7);
+        box-shadow:0 0 0 5px rgb(0,255,85);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(0.5);
+        box-shadow:0 0 0 0 rgb(0,255,84);
+        opacity: 0;
+    }
+}
