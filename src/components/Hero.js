@@ -20,12 +20,12 @@ const Hero = () => {
       <img className='w-full h-full object-cover relative' src={hero} alt='hero'/>
       <div className='flex w-full absolute'>
         <div className='w-full max-w-[1240px] flex flex-col md:flex-row  mx-auto items-center justify-evenly'>
-        <div data-aos="fade-down" data-aos-duration="1200">
+        <div className='mt-[30px] sm:mt-0' data-aos="fade-down" data-aos-duration="1200">
           <h2 className='text-white text-4xl md:text-[40px]'>👋 Hi I Am</h2>
           <h1 className='text-6xl font-bold bg-clip-text bg-gradient-to-r from-[#0035FF] to-[#7D17FF] text-transparent md:text-[80px]'>Isa Kadriu</h1>
           <p className='text-white font-semibold mt-[20px] text-[20px]'>A Detail-obsessed UX / UI Designer</p>
         </div>
-        <div className='flex  mr-[20px] mt-[60px] mb-[]  md:mt-0 items-center justify-center md:mr-0 md:mb-0' data-aos="fade-up" data-aos-duration="1200">
+        <div className='flex  mr-[20px] mt-[40px] mb-[40px]  md:mt-0 items-center justify-center md:mr-0 md:mb-0' data-aos="fade-up" data-aos-duration="1200">
           <img  src={isa} alt='isa'/>
         <div className='flex flex-col justify-between mb-[20px] w-full sm:max-w-[280px]'>
             <FaFacebook className='h-[20px] w-[20px] text-white hover:text-[#FDAD00]'/>
